@@ -37,14 +37,11 @@ async function login(req, res) {
 
 async function update(req, res) {
     const userId = req.params.id;
-    const { email, password, firstName, lastName, phone, bio } = req.body;
+    const { email, password, username } = req.body;
     try {
         const updatedFields = {
             email: email || '',
-            firstName: firstName || '',
-            lastName: lastName || '',
-            phone: phone || '',
-            bio: bio || ''
+            username: username || '',
         }
 
         if (password) {
