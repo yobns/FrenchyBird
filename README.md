@@ -4,7 +4,8 @@ https://frenchy-bird.vercel.app/
 
 Made with React & MongoDB.
 
-![game](https://github.com/yobns/FrenchyBird/assets/132787980/e6eb8a1b-6270-497c-a9df-8b280ff32ade)
-![rank](https://github.com/yobns/FrenchyBird/assets/132787980/5e9ee6e0-a834-46cc-b758-b0cd731b2519)
-![FrenchyBird](https://github.com/yobns/FrenchyBird/assets/132787980/9520c68a-68bc-4528-bf9a-012350d1275e)
-![profile](https://github.com/yobns/FrenchyBird/assets/132787980/4c2efc67-6ad5-405d-bbce-e819f27ee859)
+![FrenchyBird · 2 59pm · 02-16 (2)](https://github.com/yobns/FrenchyBird/assets/132787980/7712092f-5a59-467d-ae74-1a357dc9e893)
+![FrenchyBird](https://github.com/yobns/FrenchyBird/assets/132787980/077c750b-0263-4bb6-864b-605d43582bcc)
+![FrenchyBird · 2 59pm · 02-16](https://github.com/yobns/FrenchyBird/assets/132787980/cf655729-a75d-4112-98fc-071621fdc649)
+![FrenchyBird · 2 59pm · 02-16 (1)](https://github.com/yobns/FrenchyBird/assets/132787980/dbd2e62c-b04e-4c1a-b253-b0bd2376915b)
+
