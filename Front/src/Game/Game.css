@@ -1,0 +1,124 @@
+.home {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: calc(100vh - 56px);
+}
+
+.welcome {
+  display: flex;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-family: "Press Start 2P";
+  color: black;
+  text-shadow: 1px 1px 0 #FEEA88, 2px -2px 0 #FEEA88, -2px 2px 0 #FEEA88, -2px -2px 0 #FEEA88, 2px 0px 0 #FEEA88, 0px 2px 0 #FEEA88, -2px 0px 0 #FEEA88, 0px -2px 0 #FEEA88;
+}
+
+.score {
+  font-family: "Press Start 2P";
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ffe987;
+  text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: "Press Start 2P";
+  text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.background {
+  background-image: url("../media/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  width: 400px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+.background.start {
+  cursor: pointer;
+}
+
+.bird {
+  position: absolute;
+  background-image: url("../media/cheese.webp");
+  background-repeat: no-repeat;
+  background-size: 50px 30px;
+  width: 50px;
+  height: 30px;
+  left: 20%;
+}
+
+.obj {
+  position: absolute;
+  background-image: url("../media/baguette.png");
+  background-size: cover;
+  width: 50px;
+  height: 0;
+}
+
+.obj.top {
+  transform: scaleY(-1);
+}
+
+.startBoard {
+  font-family: "Press Start 2P";
+  position: absolute;
+  z-index: 1;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../media/fr.png");
+  text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+  color: white;
+  background-size: contain;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 2;
+}
+
+.scoreBottom {
+  font-family: "Press Start 2P";
+  display: flex;
+  position: absolute;
+  bottom: 17%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  gap: 25px;
+}
+
+.tryAgain {
+  text-shadow: -1px -1px 0 black,  1px -1px 0 black,-1px  1px 0 black,1px  1px 0 black;
+  color: #ffea88;
+  font-size: 6px;
+}
+
+@media (max-width: 768px) {
+  .welcome {
+    display: none;
+  }
+}

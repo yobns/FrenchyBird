@@ -1,0 +1,55 @@
+.home {
+    background-color: grey;
+    color: white;
+    height: calc(100vh - 56px);
+}
+
+.logoLogin {
+    font-size: 20px;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    font-weight: bold;
+}
+
+.msgCard {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    border: 1px solid #FEEA88;
+}
+
+.msg {
+    font-size: 60%;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    font-weight: bold;
+}
+
+.msglogo {
+    font-size: 15px;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    font-weight: bold;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btnLogin {
+    all: unset;
+    border: 1px solid black;
+    padding: 10px;
+    color: #FEEA88;
+    background-color: grey;
+    border-radius: 3px;
+    font-family: "Press Start 2P";
+    font-size: 8px;
+}

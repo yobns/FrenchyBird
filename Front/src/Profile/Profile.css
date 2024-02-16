@@ -1,0 +1,58 @@
+.profile {
+    height: calc(100vh - 56px);
+    background-color: grey;
+    color: white;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #00000029;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.titleProfile {
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.buttonUpdate {
+    all: unset;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    background-color: lightgray;
+    border-radius: 3px;
+    font-family: "Press Start 2P";
+    font-size: 8px;
+}
+
+.buttonLogout {
+    all: unset;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    color: #FEEA88;
+    border-radius: 3px;
+    font-family: "Press Start 2P";
+    font-size: 8px;
+    border: 1px solid #FEEA88;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.titleLogout {
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.rank {
+    background-color: grey;
+    color: white;
+    height: calc(100vh - 56px);
+}
+
+.rankTitle {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    font-size: 20px;
+}
+
+.userRank {
+    text-align: center;
+    font-family: "Press Start 2P";
+    color: black;
+    text-shadow: 1px 1px 0 #FEEA88, 2px -2px 0 #FEEA88, -2px 2px 0 #FEEA88, -2px -2px 0 #FEEA88, 2px 0px 0 #FEEA88, 0px 2px 0 #FEEA88, -2px 0px 0 #FEEA88, 0px -2px 0 #FEEA88;
+    font-size: 10px;
+}

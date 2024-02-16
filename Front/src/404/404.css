@@ -1,0 +1,8 @@
+.error404 {
+    background-color: grey;
+    color: white;
+    height: calc(100vh - 56px);
+    text-align: center;
+    padding: 30px;
+    font-family: "Press Start 2P";
+}

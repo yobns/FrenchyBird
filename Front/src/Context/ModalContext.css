@@ -1,0 +1,19 @@
+.link-style {
+    background: none;
+    border: none;
+    color: #ff8d4b;
+    text-decoration: underline;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+.buttonModal {
+    background-color: #F8A97A;
+    border: none;
+}
+
+.buttonModal:hover {
+    background-color: grey;
+    border: none;
+}

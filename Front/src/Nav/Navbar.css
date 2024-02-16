@@ -1,0 +1,42 @@
+.logo {
+    font-size: 20px;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-family: "Press Start 2P";
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: lightgray;
+}
+
+.activeLink {
+    text-decoration: none;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-family: "Press Start 2P";
+    margin-right: 20px;
+    color: lightgray;
+}
+
+.accountBtn {
+    all: unset;
+    font-size: 16px;
+    font-family: "Press Start 2P";
+    color: grey;
+    padding: 8px 0px;
+}
+
+.accountBtn:hover {
+    color: lightgray;
+}
