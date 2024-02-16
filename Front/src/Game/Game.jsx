@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Game.css";
 import sound from '../media/sound.wav';
 import axios from "axios";
+import Confetti from 'react-confetti';
 
 const BIRD_HEIGHT = 30;
 const BIRD_WIDTH = 50;
@@ -21,6 +22,7 @@ function Game() {
   const [objPos, setObjPos] = useState(WALL_WIDTH);
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
+  const [isBestScore, setIsBestScore] = useState(false);
   const [isGameOver, setIsGameOver] = useState(false);
   const username = localStorage.getItem('username');
   const id = localStorage.getItem('id');
@@ -61,8 +63,8 @@ function Game() {
       }
     }
   }, [isStart]);
-  
-/* eslint-disable */
+
+  /* eslint-disable */
   useEffect(() => {
     if (!isStart)
       return;
@@ -134,6 +136,7 @@ function Game() {
     setObjPos(WALL_WIDTH);
     setScore(0);
     setIsGameOver(false);
+    setIsBestScore(false)
   }
 
   const endGame = () => {
@@ -144,13 +147,17 @@ function Game() {
     setObjHeight(Math.floor(Math.random() * (WALL_HEIGHT - OBJ_GAP)));
     setIsGameOver(true);
     submitScoreToApi(score);
-    if (score > bestScore)
+    if (score > bestScore) {
       setBestScore(score);
+      setIsBestScore(true)
+      setTimeout(() => setIsBestScore(false), 10000);
+    }
   }
 
   return (
     <div className="home">
       <div className="game">
+        {isBestScore ? <Confetti /> : null}
         <h3 className="welcome">Welcome<span className='fst-italic'>{username}</span>!</h3>
         <div className={`background ${isStart ? "start" : ""}`}>
           {isStart ? (<span className="score">{score}</span>)
@@ -158,9 +165,10 @@ function Game() {
               <span className="title">Frenchy<span style={{ color: '#ffea88', fontStyle: 'italic' }}>Bird</span></span>
 
               <div className="startBoard">
-                {isGameOver ?
-                  (<>GAME<br />OVER! <br /><span className="tryAgain">Click to try again</span></>)
-                  : (<>Click<br />ANYWHERE<br />to Start</>)
+                {isGameOver ? (<>
+                  {isBestScore ? (<>BEST<br />SCORE!<br /><span className="tryAgain">Click to try again</span></>)
+                    : (<>GAME<br />OVER! <br /><span className="tryAgain">Click to try again</span></>)}
+                </>) : (<>Click<br />ANYWHERE<br />to Start</>)
                 }
               </div>
 
