@@ -1,7 +1,40 @@
-.home {
-    background-color: grey;
+.login {
     color: white;
     height: calc(100vh - 56px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    background-image: url('../media/Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom right,
+            #0055a4 0%, #0055a4 33%,
+            #ffffff 33%, #ffffff 66%,
+            #ef4135 66%, #ef4135 100%);
+    border-image-slice: 1;
+}
+
+.borderBg {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .logoLogin {
@@ -18,6 +51,8 @@
     padding: 20px;
     width: fit-content;
     border: 1px solid #FEEA88;
+    margin: auto;
+    margin-top: 100px;
 }
 
 .msg {
@@ -52,4 +87,14 @@
     border-radius: 3px;
     font-family: "Press Start 2P";
     font-size: 8px;
+}
+
+@media (max-width: 768px) {
+    .login {
+        background-size: cover;
+    }
+
+    .borderBg {
+        border: none;
+    }
 }
