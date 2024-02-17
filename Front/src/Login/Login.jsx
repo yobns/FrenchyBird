@@ -18,7 +18,7 @@ const Login = () => {
         <span className="title">Frenchy<span style={{ color: '#ffea88', fontStyle: 'italic' }}>Bird</span></span>
         {!isUserLoggedIn && (<>
           <div className="msgCard">
-            <h1 className='msg'>To access <span className="msgLogo">Frenchy<span style={{ color: '#ffea88', fontStyle: 'italic', marginRight: '13px' }}>Bird</span></span>please login</h1>
+            <h1 className='msg'>Please login to access !</h1>
             <div className="btnContainer">
               <button className='btnLogin' onClick={handleLoginShow}>Login</button>
               <button className='btnLogin' onClick={handleSignupShow}>Signup</button>
