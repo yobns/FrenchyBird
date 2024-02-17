@@ -106,6 +106,8 @@
 .scoreBottom {
   font-family: "Press Start 2P";
   display: flex;
+  justify-content: center;
+  width: 100%;
   position: absolute;
   bottom: 17%;
   left: 50%;
@@ -114,7 +116,7 @@
   text-align: center;
   font-size: 10px;
   color: white;
-  gap: 25px;
+  gap: 50px;
 }
 
 .tryAgain {
