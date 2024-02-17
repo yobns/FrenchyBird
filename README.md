@@ -4,8 +4,10 @@ https://frenchy-bird.vercel.app/
 
 Made with React & MongoDB.
 
-![FrenchyBird · 2 59pm · 02-16 (2)](https://github.com/yobns/FrenchyBird/assets/132787980/7712092f-5a59-467d-ae74-1a357dc9e893)
-![FrenchyBird](https://github.com/yobns/FrenchyBird/assets/132787980/077c750b-0263-4bb6-864b-605d43582bcc)
-![FrenchyBird · 2 59pm · 02-16](https://github.com/yobns/FrenchyBird/assets/132787980/cf655729-a75d-4112-98fc-071621fdc649)
-![FrenchyBird · 2 59pm · 02-16 (1)](https://github.com/yobns/FrenchyBird/assets/132787980/dbd2e62c-b04e-4c1a-b253-b0bd2376915b)
+<img width="1223" alt="Capture d’écran 2024-02-18 à 00 09 50" src="https://github.com/yobns/FrenchyBird/assets/132787980/518de1cc-090f-4e79-b086-3221bf35adbb">
 
+<img width="1223" alt="Capture d’écran 2024-02-18 à 00 25 19" src="https://github.com/yobns/FrenchyBird/assets/132787980/f5e6d072-d350-4afd-b35c-a50caae2dd69">
+
+<img width="1223" alt="Capture d’écran 2024-02-18 à 00 10 09" src="https://github.com/yobns/FrenchyBird/assets/132787980/f3af749a-bb76-4381-be14-657c5fffe286">
+
+<img width="1223" alt="Capture d’écran 2024-02-18 à 00 10 14" src="https://github.com/yobns/FrenchyBird/assets/132787980/b091aea8-d748-49cf-8c38-0142393079f4">
