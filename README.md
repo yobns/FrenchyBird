@@ -1,8 +1,7 @@
-Flappy Bird style game 
+Flappy Bird style game (MERN app)
 
 https://frenchy-bird.vercel.app/
 
-Made with React & MongoDB.
 
 <img width="1223" alt="Capture d’écran 2024-02-18 à 00 36 37" src="https://github.com/yobns/FrenchyBird/assets/132787980/4d01297d-1037-47c2-96c8-424194f12fb2">
 
