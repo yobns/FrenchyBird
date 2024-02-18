@@ -6,6 +6,7 @@ Made with React & MongoDB.
 
 <img width="1223" alt="Capture d’écran 2024-02-18 à 00 36 37" src="https://github.com/yobns/FrenchyBird/assets/132787980/4d01297d-1037-47c2-96c8-424194f12fb2">
 
+<img width="1223" alt="Capture d’écran 2024-02-18 à 01 21 53" src="https://github.com/yobns/FrenchyBird/assets/132787980/729d2404-29c5-46ec-8602-563abb641692">
 
 <img width="1223" alt="Capture d’écran 2024-02-18 à 00 25 19" src="https://github.com/yobns/FrenchyBird/assets/132787980/f5e6d072-d350-4afd-b35c-a50caae2dd69">
 
